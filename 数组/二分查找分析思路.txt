@@ -1,0 +1,80 @@
+
+
+1  shang        shang
+2
+3
+4               zhong
+5                         shang
+6                         zhong      shang
+7                                    zhong
+8                xia      xia        xia
+
+
+9  zhong
+
+
+10
+11
+12
+13
+14
+15
+16
+17 xia
+
+
+
+
+
+第一种情况： num >a[zhong]
+
+1  shang        
+2
+3
+4               
+5                        
+6                          
+7                                
+8                
+
+
+9  zhong
+
+
+10 shang = zhong + 1
+11
+12
+13
+14
+15
+16
+17 xia
+
+
+第二种情况： num < a[zhong]
+
+1  shang        
+2
+3
+4               
+5                        
+6                          
+7                                
+8                
+         xia = zhong - 1
+9  zhong
+
+
+10  
+11
+12
+13
+14
+15
+16
+17 xia
+
+
+第三种情况：num == a[zhong]
+
+break;
